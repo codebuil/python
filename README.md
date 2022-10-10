@@ -1,2 +1,2 @@
 # python
-ai python numbers and graphics machine learn
+ai python numbers and graphics data analyses
