@@ -1,0 +1,32 @@
+import matplotlib.pyplot as p, numpy,sklearn
+a=[]
+b=[]
+c=0
+f=[4]
+x=[]
+y=[]
+bb=range(10)
+print ("\033c\033[42;30m wait...\n")
+
+for n in bb:
+	a=a+[[1,n,n]]
+	c=n+n+1
+	b=b+[c]
+	a=a+[[2,n,n]]
+	c=n+n+2
+	b=b+[c]
+	a=a+[[3,n,n]]
+	c=n+n+3
+	b=b+[c]
+	a=a+[[4,n,n]]
+	c=n+n+4
+	b=b+[c]
+	
+for n in range(len(b)):
+	c=a[n][0]
+	if c==4:
+		x=x+[a[n]]
+		y=y+[b[n]]
+		
+print(x)
+print(y)
